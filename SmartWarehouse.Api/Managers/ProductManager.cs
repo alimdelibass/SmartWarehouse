@@ -63,7 +63,7 @@ public class ProductManager
 
         if (product.CompanyId != companyId)
             return OperationResult<ProductDto>.Forbidden("Product belongs to another company.");
-
+         
         return OperationResult<ProductDto>.Ok(ToDto(product));
     }
 
