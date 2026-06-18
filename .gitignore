@@ -1,0 +1,52 @@
+# Build outputs
+[Bb]in/
+[Oo]bj/
+[Dd]ist/
+[Dd]ist-ssr/
+out/
+build/
+
+# .NET
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.nupkg
+*.snupkg
+
+# Visual Studio / Rider
+.vs/
+*.rsuser
+.idea/
+*.sln.docstates
+
+# Node
+node_modules/
+.npm
+*.tsbuildinfo
+.vite/
+
+# Environment and secrets (keep examples)
+.env
+.env.*
+!.env.example
+appsettings.Development.json
+appsettings.*.local.json
+appsettings.local.json
+secrets.json
+**/credentials*
+*.pfx
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.log
+.vscode/*
+!.vscode/extensions.json
+
+# Test / coverage
+coverage/
+TestResults/

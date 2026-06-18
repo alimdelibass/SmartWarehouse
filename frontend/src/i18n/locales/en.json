@@ -1,0 +1,135 @@
+{
+  "app": {
+    "title": "Smart Warehouse Management",
+    "subtitle": "Product, location and stock tracking panel",
+    "tabs": {
+      "products": "Products",
+      "locations": "Warehouse Locations",
+      "stocks": "Stock / Movements"
+    }
+  },
+  "header": {
+    "company": "Company",
+    "language": "Language"
+  },
+  "company": {
+    "select": "Select company",
+    "add": "New Company",
+    "addButton": "Add Company",
+    "code": "Company Code",
+    "name": "Company Name",
+    "notifyCreated": "Company added.",
+    "notifyCreateError": "Could not add company.",
+    "validation": {
+      "codeRequired": "Company code is required.",
+      "nameRequired": "Company name is required."
+    }
+  },
+  "empty": {
+    "noCompanyTitle": "No company selected",
+    "noCompany": "Select a company from the header or add a new company to continue."
+  },
+  "summary": {
+    "totalProducts": "Total Products",
+    "totalLocations": "Total Locations",
+    "totalStockQuantity": "Total Stock Quantity",
+    "lowStockCount": "Low Stock"
+  },
+  "chart": {
+    "title": "Last 7 Days Stock Movements",
+    "inQuantity": "In",
+    "outQuantity": "Out",
+    "quantity": "Quantity",
+    "noData": "No chart data available"
+  },
+  "common": {
+    "all": "All",
+    "cancel": "Cancel",
+    "save": "Save",
+    "add": "Add",
+    "delete": "Delete",
+    "edit": "Edit",
+    "actions": "Actions",
+    "id": "ID",
+    "search": "Search",
+    "createdAt": "Created At",
+    "quantity": "Quantity",
+    "location": "Location",
+    "product": "Product",
+    "date": "Date",
+    "type": "Type",
+    "category": "Category",
+    "address": "Address",
+    "sku": "SKU",
+    "notFound": "No records found"
+  },
+  "products": {
+    "newProduct": "New Product",
+    "editProduct": "Edit Product",
+    "productName": "Product Name",
+    "searchPlaceholder": "Search product name or SKU...",
+    "deleteTitle": "Delete Product",
+    "deleteDescription": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+    "notifyUpdated": "Product updated.",
+    "notifyCreated": "Product added.",
+    "notifyDeleted": "Product deleted.",
+    "notifySaveError": "Could not save product.",
+    "notifyDeleteError": "Could not delete product.",
+    "validation": {
+      "nameRequired": "Product name is required.",
+      "skuRequired": "SKU is required.",
+      "categoryRequired": "Category is required."
+    }
+  },
+  "locations": {
+    "newLocation": "New Location",
+    "editLocation": "Edit Location",
+    "locationName": "Location Name",
+    "searchPlaceholder": "Search location name or address...",
+    "deleteTitle": "Delete Location",
+    "deleteDescription": "Are you sure you want to delete \"{{name}}\"? This action cannot be undone.",
+    "notifyUpdated": "Location updated.",
+    "notifyCreated": "Location added.",
+    "notifyDeleted": "Location deleted.",
+    "notifySaveError": "Could not save location.",
+    "notifyDeleteError": "Could not delete location.",
+    "validation": {
+      "nameRequired": "Location name is required.",
+      "addressRequired": "Address is required."
+    }
+  },
+  "stocks": {
+    "stockLevels": "Stock Levels",
+    "movementHistory": "Movement History",
+    "stockInOut": "Stock In / Out",
+    "searchPlaceholder": "Search product or location...",
+    "transactionType": "Transaction Type",
+    "movementIn": "In",
+    "movementOut": "Out",
+    "movementDialogTitle": "Stock Movement",
+    "warehouseLocation": "Warehouse Location",
+    "noProducts": "No products found",
+    "noLocations": "No locations found",
+    "submitIn": "Stock In",
+    "submitOut": "Stock Out",
+    "notifyIn": "Stock in recorded.",
+    "notifyOut": "Stock out recorded.",
+    "notifyError": "Could not save stock movement.",
+    "validation": {
+      "productRequired": "Please select a product.",
+      "locationRequired": "Please select a location.",
+      "quantityRequired": "Enter a positive quantity."
+    }
+  },
+  "dataGrid": {
+    "noRows": "No records found",
+    "footerRowSelected": "{{count}} row(s) selected",
+    "footerTotalRows": "Total Rows:",
+    "sortAsc": "Sort ascending",
+    "sortDesc": "Sort descending",
+    "unsort": "Remove sort",
+    "sortIconLabel": "Sort",
+    "rowsPerPage": "Rows per page:",
+    "displayedRows": "{{from}}–{{to}} of {{count}}"
+  }
+}

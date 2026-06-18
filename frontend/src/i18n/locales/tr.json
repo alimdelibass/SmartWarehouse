@@ -1,0 +1,135 @@
+{
+  "app": {
+    "title": "Akıllı Depo Yönetimi",
+    "subtitle": "Ürün, lokasyon ve stok takip paneli",
+    "tabs": {
+      "products": "Ürünler",
+      "locations": "Depo Lokasyonları",
+      "stocks": "Stok / Hareketler"
+    }
+  },
+  "header": {
+    "company": "Şirket",
+    "language": "Dil"
+  },
+  "company": {
+    "select": "Şirket seçin",
+    "add": "Yeni Şirket",
+    "addButton": "Şirket Ekle",
+    "code": "Şirket Kodu",
+    "name": "Şirket Adı",
+    "notifyCreated": "Şirket eklendi.",
+    "notifyCreateError": "Şirket eklenemedi.",
+    "validation": {
+      "codeRequired": "Şirket kodu zorunludur.",
+      "nameRequired": "Şirket adı zorunludur."
+    }
+  },
+  "empty": {
+    "noCompanyTitle": "Şirket seçilmedi",
+    "noCompany": "Devam etmek için üst menüden bir şirket seçin veya yeni şirket ekleyin."
+  },
+  "summary": {
+    "totalProducts": "Toplam Ürün",
+    "totalLocations": "Toplam Lokasyon",
+    "totalStockQuantity": "Toplam Stok Adedi",
+    "lowStockCount": "Düşük Stok"
+  },
+  "chart": {
+    "title": "Son 7 Gün Stok Hareketleri",
+    "inQuantity": "Giriş",
+    "outQuantity": "Çıkış",
+    "quantity": "Miktar",
+    "noData": "Grafik verisi bulunamadı"
+  },
+  "common": {
+    "all": "Tümü",
+    "cancel": "Vazgeç",
+    "save": "Kaydet",
+    "add": "Ekle",
+    "delete": "Sil",
+    "edit": "Düzenle",
+    "actions": "İşlemler",
+    "id": "ID",
+    "search": "Ara",
+    "createdAt": "Oluşturulma",
+    "quantity": "Miktar",
+    "location": "Lokasyon",
+    "product": "Ürün",
+    "date": "Tarih",
+    "type": "Tür",
+    "category": "Kategori",
+    "address": "Adres",
+    "sku": "SKU",
+    "notFound": "Kayıt bulunamadı"
+  },
+  "products": {
+    "newProduct": "Yeni Ürün",
+    "editProduct": "Ürünü Düzenle",
+    "productName": "Ürün Adı",
+    "searchPlaceholder": "Ürün adı veya SKU ara...",
+    "deleteTitle": "Ürünü Sil",
+    "deleteDescription": "\"{{name}}\" ürününü silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+    "notifyUpdated": "Ürün güncellendi.",
+    "notifyCreated": "Ürün eklendi.",
+    "notifyDeleted": "Ürün silindi.",
+    "notifySaveError": "Ürün kaydedilemedi.",
+    "notifyDeleteError": "Ürün silinemedi.",
+    "validation": {
+      "nameRequired": "Ürün adı zorunludur.",
+      "skuRequired": "SKU zorunludur.",
+      "categoryRequired": "Kategori zorunludur."
+    }
+  },
+  "locations": {
+    "newLocation": "Yeni Lokasyon",
+    "editLocation": "Lokasyonu Düzenle",
+    "locationName": "Lokasyon Adı",
+    "searchPlaceholder": "Lokasyon adı veya adres ara...",
+    "deleteTitle": "Lokasyonu Sil",
+    "deleteDescription": "\"{{name}}\" lokasyonunu silmek istediğinize emin misiniz? Bu işlem geri alınamaz.",
+    "notifyUpdated": "Lokasyon güncellendi.",
+    "notifyCreated": "Lokasyon eklendi.",
+    "notifyDeleted": "Lokasyon silindi.",
+    "notifySaveError": "Lokasyon kaydedilemedi.",
+    "notifyDeleteError": "Lokasyon silinemedi.",
+    "validation": {
+      "nameRequired": "Lokasyon adı zorunludur.",
+      "addressRequired": "Adres zorunludur."
+    }
+  },
+  "stocks": {
+    "stockLevels": "Stok Seviyeleri",
+    "movementHistory": "Hareket Geçmişi",
+    "stockInOut": "Stok Girişi / Çıkışı",
+    "searchPlaceholder": "Ürün veya lokasyon ara...",
+    "transactionType": "İşlem Türü",
+    "movementIn": "Giriş",
+    "movementOut": "Çıkış",
+    "movementDialogTitle": "Stok Hareketi",
+    "warehouseLocation": "Depo Lokasyonu",
+    "noProducts": "Ürün bulunamadı",
+    "noLocations": "Lokasyon bulunamadı",
+    "submitIn": "Giriş Yap",
+    "submitOut": "Çıkış Yap",
+    "notifyIn": "Stok girişi yapıldı.",
+    "notifyOut": "Stok çıkışı yapıldı.",
+    "notifyError": "Stok hareketi kaydedilemedi.",
+    "validation": {
+      "productRequired": "Ürün seçiniz.",
+      "locationRequired": "Lokasyon seçiniz.",
+      "quantityRequired": "Pozitif bir miktar giriniz."
+    }
+  },
+  "dataGrid": {
+    "noRows": "Kayıt bulunamadı",
+    "footerRowSelected": "{{count}} satır seçildi",
+    "footerTotalRows": "Toplam Satır:",
+    "sortAsc": "Artan sırala",
+    "sortDesc": "Azalan sırala",
+    "unsort": "Sıralamayı kaldır",
+    "sortIconLabel": "Sırala",
+    "rowsPerPage": "Sayfa başına:",
+    "displayedRows": "{{from}}–{{to}} / {{count}}"
+  }
+}
