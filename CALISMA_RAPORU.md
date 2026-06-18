@@ -402,3 +402,11 @@ Ancak proje teslim süresi öncelikleri nedeniyle JWT authentication ve role-bas
 | Güncellemede `EntityState.Modified` | ✅ |
 | PascalCase (C#) / camelCase (TS) naming | ✅ |
 | `CALISMA_RAPORU.md` teslimi | ✅ |
+
+<img width="2481" height="1298" alt="image" src="https://github.com/user-attachments/assets/cb6006be-b032-4de2-8892-a636484615e4" />
+<img width="2471" height="1297" alt="image" src="https://github.com/user-attachments/assets/6b2c8156-c14a-4596-87bd-9ad2ade7986a" />
+<img width="2426" height="1271" alt="image" src="https://github.com/user-attachments/assets/387159a5-4b32-40bc-b149-108fbeafdbbc" />
+<img width="2517" height="1251" alt="image" src="https://github.com/user-attachments/assets/3af3b88d-4f0f-4fc5-a0ce-623b5f149ab4" />
+
+
+
