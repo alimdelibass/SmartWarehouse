@@ -11,10 +11,10 @@
 SmartWarehouse, çok kiracılı (multi-tenant) bir depo yönetim uygulamasıdır. Backend .NET 9 Web API ile katmanlı mimaride geliştirilmiş; frontend React 18 + TypeScript + MUI ile tek sayfalık (SPA) bir arayüz sunar.
 
 Temel iş akışı:
-
-1. Sisteme ürün tanımlanır.
-2. Tanımlanan ürün depoya giriş yapar (stok artışı).
-3. Depodaki ürün depodan çıkış yapar (stok azalışı).
+1.Şirket seçimi yapılır eğer şirket yoksa yeni şirket oluşturulur ve işleme devam edilir.
+2. Sisteme ürün tanımlanır.
+3. Tanımlanan ürün depoya giriş yapar (stok artışı).
+4. Depodaki ürün depodan çıkış yapar (stok azalışı).
 
 Tüm operasyonel veriler `CompanyId` bazında ayrılır; silme işlemleri fiziksel değil **soft delete** (`IsDeleted`) ile yapılır. Şirket tanımları `Companies` tablosunda tutulur; kullanıcı Header üzerinden şirket seçer veya yeni şirket ekler.
 
